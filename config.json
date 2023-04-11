@@ -1,0 +1,26 @@
+{
+    
+    "professionMaxAttempts": [5, 5, 5, 5, 5, 5],
+    "nonProfessionMaxAttempts": 3,
+    "maxQuestGroupSize": 6,
+
+    "pollingInterval": "60000",
+
+    "quests": 
+        {
+            "name": "Fishing",
+            "professionHeroes": [[],[],[],[],[],[]],
+            "ChefGroupHeroes": [],
+            "contractAddress": ["0x407ab39B3675f29A719476af6eb3B9E5d93969E6", "0x407ab39B3675f29A719476af6eb3B9E5d93969E6", "0x407ab39B3675f29A719476af6eb3B9E5d93969E6", "0x407ab39B3675f29A719476af6eb3B9E5d93969E6", "0x407ab39B3675f29A719476af6eb3B9E5d93969E6", "0x407ab39B3675f29A719476af6eb3B9E5d93969E6"],
+            "level": [0, 0, 0, 0, 0, 0]
+        },
+
+    "questContract": "0xE9AbfBC143d7cef74b5b793ec5907fa62ca53154",
+    "heroContract": "0xEb9B61B145D6489Be575D3603F4a704810e143dF",
+
+    "useBackupRpc": false,
+    "rpc": {
+        "DFKChainRpc": "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
+        "DFKChainPOKT": "https://avax-dfk.gateway.pokt.network/v1/lb/6244818c00b9f0003ad1b619//ext/bc/q2aTwKuyzgs8pynF7UXBZCU7DejbZbZ6EUyHr3JQzYgwNPUPi/rpc"
+    }
+}
